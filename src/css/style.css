@@ -188,18 +188,18 @@ header nav {
 
 
 .reasons .reason_block {
-    position: relative;
-    padding-left: 35px;
-    padding-top: 35px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 35px;
 
 }
 
  .reason_round {
-    position: absolute;
     display: flex;
     justify-content: center;
     align-items: center;
-
+    margin-right: 26px;
 
     width: 113px;
     height: 113px;
@@ -207,20 +207,18 @@ header nav {
     border-radius: 100%;
 }
 
-.reason_descr {
-    padding-left: 139px;
-    max-width: 1015px;
+.reasons .reason_block .reason_descr {
+    width: 343px;
 }
 
-.reason_descr .reason_header {
+.reasons .reason_block .reason_descr .reason_header {
     font-size: 17px;
     line-height: 21px;
     font-weight: 400;
     color: #1eacc7;
 }
 
-.reason_descr .reason_text {
-
+.reasons .reason_block .reason_descr .reason_text {
     font-size: 15px;
     line-height: 21px;
     font-weight: 300;
