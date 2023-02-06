@@ -160,7 +160,7 @@ header nav {
     padding: 71px 0 65px 0;
 }
 
-.reasons .advantages {
+.label {
     display: block;
     margin: 0 auto;
     padding: 8px 12px;
@@ -174,7 +174,7 @@ header nav {
     color: #ffffff;
 }
 
-.reasons .reasons_title {
+.title {
     margin-top: 38px;  
     margin-bottom: 0; 
 
