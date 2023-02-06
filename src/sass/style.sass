@@ -169,10 +169,14 @@ header
 	.row 
 		margin-top: 32px
 	&_block
+		display: flex
+		flex-direction: column
 		width: 320px
 		height: 280px
 		margin: 0 auto
 		margin-bottom: 19px
+		padding-top: 92px
+		position: relative
 		&_1
 			background: url(../img/mobile/one_touch.jpg) center center/cover no-repeat 
 		&_2
@@ -185,4 +189,31 @@ header
 			background: url(../img/mobile/Feedback.png) center center/cover no-repeat 
 		&_6
 			background: url(../img/mobile/share_cost.png) center center/cover no-repeat 
-		
+		&_subtitle 
+			color: #ffffff
+			font-size: 24px
+			font-weight: 400
+			font-style: normal
+			letter-spacing: normal
+			line-height: 31px
+			text-align: center
+			text-transform: uppercase
+		&_plus
+			display: flex
+			justify-content: center
+			align-items: center
+			width: 26px
+			height: 26px
+			margin: 0 auto
+			background-color: #000000
+			border-radius: 100%
+			padding: 6px
+			position: absolute
+			bottom: 35px
+			left: 50%
+			transform: translateX(-50%)
+			cursor: pointer
+			img
+				width:100%
+			
+
