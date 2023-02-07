@@ -240,6 +240,7 @@ header
 				width: 14px
 				height: 2px
 				background-color: $main_color
+				transition: 0.3s all
 			&:after
 				position: absolute
 				content: ''
@@ -247,6 +248,7 @@ header
 				width: 2px
 				height: 14px
 				background-color: $main_color
+				transition: 0.3s all
 			&:hover
 				&:before, &:after
 					background-color:$second_color_pink
@@ -270,8 +272,9 @@ header
 				width: 100%
 	&_down
 		min-height: 397px
-			background: url(../img/bg_choice.jpg) center center/cover no-repeat 
-
+		background: url(../img/bg_choice.jpg) center center/cover no-repeat 
+		img
+			width: 100%
 		&_text
 			margin: 0 auto
 			padding-top: 217px
@@ -283,5 +286,7 @@ header
 			font-style: normal
 			line-height: 24px
 			text-align: center
-	 
+			
+.require
+	padding: 68px 0 84px 0
 
