@@ -1,8 +1,8 @@
-* 
-	font-family: 'Roboto', sans-serif 
-
 $main_color: #1eacc7
 $second_color_pink: #ff5656
+	
+* 
+	font-family: 'Roboto', sans-serif 
 
 header 
 	position: relative 
@@ -20,6 +20,10 @@ header
 	text-transform: uppercase 
 	text-align: center
 	color: #ffffff 
+	&_white
+		background-color: #ffffff
+		color: #070716
+
 .title 
 	margin-top: 38px 
 	margin-bottom: 0 
@@ -28,12 +32,17 @@ header
 	text-transform: uppercase 
 	color: #222222 
 	text-align: center 
+	&_white
+		color: #ffffff
+
 .subtitle
 	margin-top: 19px
 	font-size: 17px
 	font-weight: 400
 	color: #222222
 	text-align: center
+	&_white
+		color: #ffffff
 
 .menu 
 	display: flex 
@@ -225,14 +234,8 @@ header
 		padding-top: 56px
 		.container
 			position: relative
-		.label
-			background-color: #ffffff
-			color: #070716
-		.title
-			color: #ffffff
+		.title_white
 			margin-top: 32px
-		.subtitle
-			color: #ffffff
 		&_picture
 			width: 759px
 			position: absolute
