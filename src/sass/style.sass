@@ -1,5 +1,10 @@
 $main_color: #1eacc7
 $second_color_pink: #ff5656
+
+=btn_hover
+	&:hover
+		background-image: none
+		background-color: $main_color
 	
 * 
 	font-family: 'Roboto', sans-serif 
@@ -105,6 +110,8 @@ header
 	text-transform: uppercase 
 	text-shadow: 1px 1px 0px rgba(0,0,0,0.2) 
 	color: #ffffff 
+	+btn_hover
+
 .promo 
 	min-width: 800px 
 	background: url(../img/bg_main.jpg) center center/cover no-repeat 
@@ -144,6 +151,7 @@ header
 	text-transform: uppercase 
 	text-shadow: 1px 1px 0px rgba(0,0,0,0.2) 
 	color: #ffffff 
+	+btn_hover
 .reasons 
 	padding: 71px 0 65px 0 
 	.reason_block 
