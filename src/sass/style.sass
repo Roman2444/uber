@@ -28,6 +28,10 @@ header
 	&_white
 		background-color: #ffffff
 		color: #070716
+	&_min
+		width: 76px 
+
+
 
 .title 
 	margin-top: 38px 
@@ -336,27 +340,33 @@ header
 	position: relative
 	min-height: 717px
 	background: url(../img/bg_world.jpg) center center/cover no-repeat 
-	padding: 49px 0 49px 0
+	padding: 49px 0
 
-	.container
+	// .container
 		
-		background-color: red
+	// 	background-color: red
 
-		.subtitle_white
-			margin-top: 20px
+	// 	.subtitle_white
+	// 		margin-top: 20px
 			
 
 	&_link
 		position: absolute
-		display: block
-		width: 193px
-		height: 14px
-		margin: 0 auto
+		left: 50%
+		transform: translateX(-50%)
+		bottom: 49px
 		color: #1fbad6
-		font-weight: 900
-		font-size: 17px	
-		text-decoration: none
-		bottom: 0
+		font-weight: 400
+		font-size: 15px	
+		text-align: center
+		text-transform: uppercase
+		&:hover
+			text-decoration: none
+			color: $second_color_pink
+
+
+		
+	 
 	
 
 					
